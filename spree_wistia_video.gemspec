@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_wistia_video'
-  s.version     = '0.0.1'
+  s.version     = '0.0.2'
   s.summary     = 'Spree extension to allow linking of Wistia video IDs to products'
   s.description = 'Spree extension to allow linking of Wistia video IDs to products'
   s.required_ruby_version = '>= 2.0.0'
