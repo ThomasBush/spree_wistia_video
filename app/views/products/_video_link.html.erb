@@ -1,0 +1,5 @@
+<% unless @product.featured_video.blank? %>
+  <%= link_to "#video-modal", id: 'rotator-btn', class: 'btn hidden-xs', :data => {:toggle=>"modal"} do %>
+    <span><i class="fa fa-play-circle-o"></i></span><br/>Featured<br/>Video
+  <% end %>
+<% end %>

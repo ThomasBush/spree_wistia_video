@@ -2,13 +2,13 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_wistia_video'
-  s.version     = '3.0.7'
-  s.summary     = 'TODO: Add gem summary here'
-  s.description = 'TODO: Add (optional) gem description here'
+  s.version     = '0.0.1'
+  s.summary     = 'Spree extension to allow linking of Wistia video IDs to products'
+  s.description = 'Spree extension to allow linking of Wistia video IDs to products'
   s.required_ruby_version = '>= 2.0.0'
 
-  # s.author    = 'You'
-  # s.email     = 'you@example.com'
+  s.author    = 'Thomas Bush'
+  s.email     = 'ThomasJosephBush@gmail.com'
   # s.homepage  = 'http://www.spreecommerce.com'
 
   #s.files       = `git ls-files`.split("\n")

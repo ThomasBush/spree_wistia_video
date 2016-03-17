@@ -1,0 +1,7 @@
+<div data-hook="admin_product_form_featured_video">
+  <%= f.field_container :featured_video, class: ['form-group'] do %>
+    <%= f.label :featured_video, Spree.t(:featured_video) %>
+    <%= f.text_field :featured_video, class: 'form-control title' %>
+    <%= f.error_message_on :featured_video %>
+  <% end %>
+</div>
