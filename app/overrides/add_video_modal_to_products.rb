@@ -8,4 +8,5 @@ Deface::Override.new(:virtual_path => 'spree/products/show',
 Deface::Override.new(:virtual_path => 'spree/products/show',
                      name: 'adds_video_modal_link',
                      insert_before: "[data-hook='product_properties']",
-                     partial: 'products/video_link')
+                     partial: 'products/video_link',
+                     original: 'e07964640a37bd9ccfcfb294c0fe4e3d0feca45a')
